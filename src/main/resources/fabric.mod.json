@@ -4,7 +4,7 @@
   "version": "${version}",
 
   "name": "Delay Be Gone",
-  "description": "This is a simple mod that takes out the block delay from shields, so you can block instantly.",
+  "description": "This is a simple mod that reduces the shield blocking delay from 5 ticks to 1.",
   "authors": [
     "IamTis"
   ],
@@ -19,7 +19,6 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.iamtis.delaybegone.DelayBeGone"
     ]
   },
   "mixins": [
