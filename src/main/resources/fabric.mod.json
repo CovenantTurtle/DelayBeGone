@@ -4,10 +4,11 @@
   "version": "${version}",
 
   "name": "Delay Be Gone",
-  "description": "This is a simple mod that reduces the shield blocking delay from 5 ticks to 1.",
+  "description": "This is a simple mod which reduces the shield blocking delay from 5 ticks to 1.",
   "authors": [
     "IamTis"
   ],
+
   "contact": {
     "homepage": "https://www.curseforge.com/minecraft/mc-mods/delay-be-gone",
     "sources": "https://github.com/rburketaylor/DelayBeGone"
@@ -28,7 +29,7 @@
   "depends": {
     "fabricloader": ">=0.11.3",
     "fabric": "*",
-    "minecraft": "1.18",
-    "java": ">=16"
+    "minecraft": "1.18.x",
+    "java": ">=17"
   }
 }
