@@ -9,7 +9,7 @@ import org.spongepowered.asm.mixin.injection.ModifyConstant;
 public class RemoveShieldDelay {
 	@ModifyConstant(method = "isBlocking", constant = @Constant(intValue = 5))
 	private int removeDelay(int delay){
-		delay = 0;
+		delay = 1;
 		return delay;
 	}
 }
