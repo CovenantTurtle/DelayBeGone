@@ -4,6 +4,7 @@
   "package": "net.iamtis.delaybegone.mixin",
   "compatibilityLevel": "JAVA_16",
   "mixins": [
+    "RemoveShieldDelay"
   ],
   "client": [
     "RemoveShieldDelay"
